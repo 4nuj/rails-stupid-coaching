@@ -1,6 +1,8 @@
 class QuestionsController < ApplicationController
   def ask
-    @answer = 'what do you have to ask ?'
+    @display_msg = 'Shoot your shot !'
+    @answer = ''
+
   end
 
   def answer

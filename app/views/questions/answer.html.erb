@@ -1,3 +1,7 @@
-<h1>Stupid Coaching</h1>
-<p><%=@asked_question%></p>
-<p><%=@answer%></p>
+<h2>Stupid Coaching ! </h2>
+<p id="myquestion"><%=@asked_question%> <br>- You</p>
+<p id="coachanswer"><%=@answer%> <br>- Your Coach</p>
+
+
+
+<p id="asklink"> <%= link_to "Ask Again", ask_path %></p>
